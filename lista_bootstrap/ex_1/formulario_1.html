@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 1 </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <div class="border p-4">
+
+            <form class="row g-3">
+
+                <div class="col-md-4">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+                </div>
+
+                <div class="col-md-4">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                </div>
+
+                <div class="col-md-4">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="username" placeholder="Username">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="city" class="form-label">City</label>
+                    <input type="text" class="form-control" id="city" placeholder="City">
+                </div>
+
+                <div class="col-md">
+                    <label for="state" class="form-label">State</label>
+                    <input type="text" class="form-control" id="state" placeholder="State">
+                </div>
+
+                <div class="col-md-2">
+                    <label for="zip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="zip" placeholder="Zip">
+                </div>
+
+                <div class="col-12">
+                    <div class="form-checkbox">
+                        <input class="form-checkbox" type="checkbox" value="" id="terms">
+                        <label class="form-checkbox-label" for="terms">Agree to terms and conditions</label>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
