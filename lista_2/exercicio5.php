@@ -36,3 +36,4 @@ switch ($mes) {
 }
 
 include("rodape.php");
+?>
