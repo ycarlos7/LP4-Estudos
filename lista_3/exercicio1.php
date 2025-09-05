@@ -19,7 +19,11 @@ include("cabecalho.php");
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     $palavra = $_POST['palavra'];
 
-echo "<p>Quantidade de caracteres da palavra:".strlen($palavra)."</p>";
+    function QuantidadeCaracteres ($texto){
+        echo "<p>Quantidade de caracteres da palavra:".strlen($texto)."</p>";
+    }
+
+    QuantidadeCaracteres ($palavra);
 }
 
 include("rodape.php");
