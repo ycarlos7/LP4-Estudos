@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lista de exercícios 2</title>
+<title>Lista de exercícios 3</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -27,10 +27,6 @@
 <li><a class="dropdown-item" href="exercicio4.php">Exercício 4</a></li>
 <li><a class="dropdown-item" href="exercicio5.php">Exercício 5</a></li>
 <li><a class="dropdown-item" href="exercicio6.php">Exercício 6</a></li>
-<li><a class="dropdown-item" href="exercicio7.php">Exercício 7</a></li>
-<li><a class="dropdown-item" href="exercicio8.php">Exercício 8</a></li>
-<li><a class="dropdown-item" href="exercicio9.php">Exercício 9</a></li>
-<li><a class="dropdown-item" href="exercicio10.php">Exercício 10</a></li>
   </ul>
 </li>
       </ul>
