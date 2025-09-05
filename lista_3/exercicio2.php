@@ -7,7 +7,7 @@ include("cabecalho.php");
 <h1></h1>
 <form method="post">
 <div class="mb-3">
-              <label for="palavra" class="form-label">Insira uma palavra para saber a quantidade de caracteres: </label>
+              <label for="palavra" class="form-label">Insira uma palavra para vela em letras Maiúsculas e Minúsculas: </label>
               <input type="text" id="palavra" name="palavra" class="form-control" required="">
             </div>
 <button type="submit" class="btn btn-primary">Enviar</button>
